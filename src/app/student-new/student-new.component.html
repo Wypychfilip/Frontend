@@ -1,0 +1,30 @@
+<div class="new-student">
+  <h2>Dodaj nowego studenta</h2>
+
+  <table class="fields">
+    <tr>
+      <td>
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" #name>
+      </td>
+      <td>
+        <label for="username">Nazwa użytkownika:</label>
+        <input type="text" id="username" #username>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" #email>
+      </td>
+      <td>
+        <button
+          class="button button-green"
+          (click)="add(name.value, email.value, username.value); name.value=''; email.value=''; username.value=''"
+        >
+          Dodaj
+        </button>
+      </td>
+    </tr>
+  </table>
+</div>

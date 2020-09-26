@@ -1,0 +1,21 @@
+.new-student {
+  margin-bottom: 25px;
+}
+
+label {
+  display: inline-block;
+  margin-top: 5px;
+  width: 40%;
+}
+
+input {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -4px;
+  width: 60%;
+}
+
+button {
+  width: 100%;
+}
